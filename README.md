@@ -171,5 +171,4 @@ api.stop(solverId)
 
 ## More documentation
 For a complete description of the KangRouter API please visit https://thesolvingmachine.com/swagger/kangrouter/srv/.
-[![Build Status](https://travis-ci.org/TheSolvingMachine/kangrouter-py.svg?branch=master)](https://travis-ci.org/TheSolvingMachine/kangrouter-py)
 
