@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/TheSolvingMachine/kangrouter-js.svg?branch=master)](https://travis-ci.org/TheSolvingMachine/kangrouter-js)
+[![Build Status](https://travis-ci.org/TheSolvingMachine/kangrouter-js.svg)](https://travis-ci.org/TheSolvingMachine/kangrouter-js)
 
 # kangrouter-js
 
