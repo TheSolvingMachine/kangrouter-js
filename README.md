@@ -133,7 +133,8 @@ done(doneCallback[,doneCallbacks])
 Called when the solver terminates successfully. The installed callbacks must have a single argument which will be instantiated with the `Solution` object, showing at what times, or time intervals, drivers must leave their depots, start their work breaks, or perform pickup/delivery actions:
 
 ```javascript
-"jobsScheduled": [
+{
+  "jobsScheduled": [
     {
       "jobId": "Pickup Alberto at the hospital",
       "maxEndTime": "14:15",
