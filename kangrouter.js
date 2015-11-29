@@ -285,7 +285,7 @@ if (typeof jQuery !== 'undefined') {
 	GeocoderJS = KangrouterAPIClients(jQuery).GeocoderJS
 }
 
-if (typeof module !== 'undefined' {
+if (typeof module !== 'undefined') {
 	module.exports = {
 			//KangRouterJS: KangRouterJS
 			KangrouterAPIClients: KangrouterAPIClients
