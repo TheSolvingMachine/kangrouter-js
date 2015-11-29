@@ -28,7 +28,7 @@ function KangrouterAPIClients(jQuery) {
 	    	    contentType : 'application/json',
 	    	    headers : { 'Authorization': apiKey }
 	    	})
-	    	.done(function(data){ df.resolve(data.solverId); })
+	    	.done(function(solverId){ df.resolve(solverId); })
 	    	.fail(function(jqXHR, textStatus, errorThrown){ df.reject(jqXHR.responseJSON)});
 	    	return df.promise();
 	    };
@@ -285,7 +285,9 @@ if (typeof jQuery !== 'undefined') {
 	GeocoderJS = KangrouterAPIClients(jQuery).GeocoderJS
 }
 
-module.exports = {
-		//KangRouterJS: KangRouterJS
-		KangrouterAPIClients: KangrouterAPIClients
-};
+if (typeof module !== 'undefined' {
+	module.exports = {
+			//KangRouterJS: KangRouterJS
+			KangrouterAPIClients: KangrouterAPIClients
+	};
+}
