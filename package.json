@@ -1,6 +1,6 @@
 {
   "name": "kangrouter-js",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Javascript client for the KangRouter transportation service optimizer. ",
   "homepage":"https://thesolvingmachine.com/kangrouter",
   "bugs":{ 

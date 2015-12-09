@@ -24,7 +24,7 @@ function KangrouterAPIClients(jQuery) {
 	    	    url: host+query,
 	    	    type: "POST",
 	    	    data: payload,
-	    	    dataType: 'json',
+	    	    dataType: 'text',
 	    	    contentType : 'application/json',
 	    	    headers : { 'Authorization': apiKey }
 	    	})
