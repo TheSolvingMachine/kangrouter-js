@@ -3,9 +3,10 @@ function KangrouterAPIClients(jQuery) {
 	
 	this.KangRouterJS = function(apiKey,licenseId) {
 		var host = "https://thesolvingmachine.com"
-		var errors=[];
+		var errors=[];		
 		this.solverPath = "/kangrouter/srv/v1/solvers"
-	
+	    var self = this;
+
 	    getQuery = function(path,pars) {
 	        var allPars = "?licenseId="+licenseId;
 	    	if (pars) {
@@ -84,7 +85,6 @@ function KangrouterAPIClients(jQuery) {
 	    	return solverId!=null;
 	    };
 	    this.solve = function(problem,pollInterval) {
-	    	var self = this;
 	    	if (!pollInterval)
 	    		pollInterval = 1000;
 	    	var df =  jQuery.Deferred();
@@ -148,6 +148,7 @@ function KangrouterAPIClients(jQuery) {
 		var host = "https://thesolvingmachine.com"
 		var errors=[];
 		this.geocoderPath = "/routing/srv/v1/geocoders"
+		var self = this;
 	    getQuery = function(path,pars) {
 	    	var d = new Date();
 	    	var secsSinceEpoch = Math.floor(d.getTime()/1000);
@@ -228,7 +229,6 @@ function KangrouterAPIClients(jQuery) {
 	    	return geocoderId!=null;
 	    };
 	    this.solve = function(problem,pollInterval) {
-	    	var self = this;
 	    	if (!pollInterval)
 	    		pollInterval = 1000;
 	    	var df =  jQuery.Deferred();
