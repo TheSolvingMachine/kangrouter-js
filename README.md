@@ -2,7 +2,7 @@
 
 # kangrouter-js
 
-Javascript client for KangRouter. KangRouter is an application for large scale transportation service optimization (see https://thesolvingmachine.com/kangrouter). 
+Javascript client for [KangRouter](https://thesolvingmachine.com/kangrouter/) - pickup/delivery transportation services optimization. 
     
 ## Installation
 
@@ -181,5 +181,6 @@ To stop a running solver:
 api.stop(solverId)
 ```
 
-## More documentation
-For a complete description of the KangRouter API please visit https://thesolvingmachine.com/swagger/kangrouter/srv/ .
+## Links
+* [KangRouter API Reference](https://thesolvingmachine.com/kangrouter/doc/)
+* [KangRouter API Playground](https://thesolvingmachine.com/swagger/kangrouter/srv/)
